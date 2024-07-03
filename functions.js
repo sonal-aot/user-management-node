@@ -39,7 +39,7 @@ const loadLoginPage = (req, res) => {
 
 const login = (req, res) => {
   const { username, password } = req.body;
-  console.log(req.body);
+  // console.log(req.body);
   if (username && password) {
     const user = UserData.find((user) => user.username === username);
     if (user && user.password === password) {

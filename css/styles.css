@@ -1,0 +1,16 @@
+.loginConatiner {
+    max-width: 600px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 50px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.loginConatiner h1 {
+    text-align: center;
+}
+
+.customBtn{
+    color: #ffffff;
+}
